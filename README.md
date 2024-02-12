@@ -1,1 +1,1 @@
-# kazin-frontend
+# kaizin-frontend
