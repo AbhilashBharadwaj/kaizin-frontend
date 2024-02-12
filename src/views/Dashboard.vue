@@ -116,7 +116,7 @@
 
 <script setup>
 import { onMounted, ref, watch } from 'vue';
-import Layout from '../components/Layout.vue'
+import Layout from '@/components/Layout.vue'
 
 const items = ref([]);
 const searchSKU = ref('');
