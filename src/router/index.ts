@@ -27,7 +27,7 @@ const router = createRouter({
   routes
 });
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _, next) => {
   if (to.meta.requiresAuth && !localStorage.getItem('token')) {
     next('/login');
   } else {
